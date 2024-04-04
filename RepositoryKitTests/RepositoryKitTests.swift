@@ -10,23 +10,26 @@ import XCTest
 
 final class RepositoryKitTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    var repository: Repository<[String]>!
+    
+    override func setUp() {
+        super.setUp()
+        repository = Repository([String].self, filename: "employees_test", fileExtension: "json")
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    override func tearDown() {
+        super.tearDown()
+        repository = nil
     }
-
-    func testExample() throws {
-        XCTAssertEqual(2, 2)
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testCache() {
+        // Get the expected cache URL
+        let path = NSSearchPathForDirectoriesInDomains(.cachesDirectory, .userDomainMask, true).first!
+        let subfolder = "com.employees"
+        let expectedURL = URL(fileURLWithPath: path).appendingPathComponent(subfolder)
+        
+        // Check if the cache URL is correct
+        XCTAssertEqual(repository.cache, expectedURL)
     }
 
 }
