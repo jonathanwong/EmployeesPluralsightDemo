@@ -7,35 +7,140 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC3EF4C42BBB030400F79C85 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C3FE42B93D5E600DFE0E5 /* Colors.swift */; };
+		FC7E9A142BAF586C00498913 /* RepositoryKit.docc in Sources */ = {isa = PBXBuildFile; fileRef = FC7E9A132BAF586C00498913 /* RepositoryKit.docc */; };
+		FC7E9A1A2BAF586C00498913 /* RepositoryKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7E9A102BAF586C00498913 /* RepositoryKit.framework */; };
+		FC7E9A212BAF586C00498913 /* RepositoryKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E9A202BAF586C00498913 /* RepositoryKitTests.swift */; };
+		FC7E9A222BAF586C00498913 /* RepositoryKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7E9A122BAF586C00498913 /* RepositoryKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC7E9A252BAF586D00498913 /* RepositoryKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7E9A102BAF586C00498913 /* RepositoryKit.framework */; };
+		FC7E9A272BAF586D00498913 /* RepositoryKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FC7E9A102BAF586C00498913 /* RepositoryKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FC7E9A2E2BAF589D00498913 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C3FEB2B93D5E700DFE0E5 /* Repository.swift */; };
 		FC9C3FD52B93D48A00DFE0E5 /* EmployeesPluralsightDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C3FD42B93D48A00DFE0E5 /* EmployeesPluralsightDemoApp.swift */; };
-		FC9C3FD72B93D48A00DFE0E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C3FD62B93D48A00DFE0E5 /* ContentView.swift */; };
 		FC9C3FD92B93D48C00DFE0E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9C3FD82B93D48C00DFE0E5 /* Assets.xcassets */; };
 		FC9C3FDC2B93D48C00DFE0E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9C3FDB2B93D48C00DFE0E5 /* Preview Assets.xcassets */; };
+		FC9C3FEE2B93D5E700DFE0E5 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C3FE22B93D5E600DFE0E5 /* Employee.swift */; };
+		FC9C3FEF2B93D5E700DFE0E5 /* EmployeesViewControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C3FE32B93D5E600DFE0E5 /* EmployeesViewControllerView.swift */; };
+		FC9C3FF12B93D5E700DFE0E5 /* employees.json in Resources */ = {isa = PBXBuildFile; fileRef = FC9C3FE52B93D5E600DFE0E5 /* employees.json */; };
+		FC9C3FF22B93D5E700DFE0E5 /* EmployeeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C3FE62B93D5E600DFE0E5 /* EmployeeProvider.swift */; };
+		FC9C3FF32B93D5E700DFE0E5 /* EmployeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C3FE72B93D5E600DFE0E5 /* EmployeesViewController.swift */; };
+		FC9C3FF52B93D5E700DFE0E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C3FE92B93D5E700DFE0E5 /* ContentView.swift */; };
+		FC9C3FF62B93D5E700DFE0E5 /* RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C3FEA2B93D5E700DFE0E5 /* RemoteImageView.swift */; };
+		FC9C3FF82B93D5E700DFE0E5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C3FEC2B93D5E700DFE0E5 /* ProfileView.swift */; };
+		FC9C3FF92B93D5E700DFE0E5 /* EmployeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C3FED2B93D5E700DFE0E5 /* EmployeeCell.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		FC7E9A1B2BAF586C00498913 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC9C3FC92B93D48A00DFE0E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC7E9A0F2BAF586C00498913;
+			remoteInfo = RepositoryKit;
+		};
+		FC7E9A1D2BAF586C00498913 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC9C3FC92B93D48A00DFE0E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC9C3FD02B93D48A00DFE0E5;
+			remoteInfo = EmployeesPluralsightDemo;
+		};
+		FC7E9A232BAF586C00498913 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC9C3FC92B93D48A00DFE0E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC7E9A0F2BAF586C00498913;
+			remoteInfo = RepositoryKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FC7E9A262BAF586D00498913 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FC7E9A272BAF586D00498913 /* RepositoryKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		FC7E9A102BAF586C00498913 /* RepositoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RepositoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7E9A122BAF586C00498913 /* RepositoryKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepositoryKit.h; sourceTree = "<group>"; };
+		FC7E9A132BAF586C00498913 /* RepositoryKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = RepositoryKit.docc; sourceTree = "<group>"; };
+		FC7E9A192BAF586C00498913 /* RepositoryKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepositoryKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7E9A202BAF586C00498913 /* RepositoryKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryKitTests.swift; sourceTree = "<group>"; };
 		FC9C3FD12B93D48A00DFE0E5 /* EmployeesPluralsightDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmployeesPluralsightDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC9C3FD42B93D48A00DFE0E5 /* EmployeesPluralsightDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesPluralsightDemoApp.swift; sourceTree = "<group>"; };
-		FC9C3FD62B93D48A00DFE0E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FC9C3FD82B93D48C00DFE0E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC9C3FDB2B93D48C00DFE0E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC9C3FE22B93D5E600DFE0E5 /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		FC9C3FE32B93D5E600DFE0E5 /* EmployeesViewControllerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeesViewControllerView.swift; sourceTree = "<group>"; };
+		FC9C3FE42B93D5E600DFE0E5 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		FC9C3FE52B93D5E600DFE0E5 /* employees.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = employees.json; sourceTree = "<group>"; };
+		FC9C3FE62B93D5E600DFE0E5 /* EmployeeProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeProvider.swift; sourceTree = "<group>"; };
+		FC9C3FE72B93D5E600DFE0E5 /* EmployeesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeesViewController.swift; sourceTree = "<group>"; };
+		FC9C3FE92B93D5E700DFE0E5 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC9C3FEA2B93D5E700DFE0E5 /* RemoteImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteImageView.swift; sourceTree = "<group>"; };
+		FC9C3FEB2B93D5E700DFE0E5 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		FC9C3FEC2B93D5E700DFE0E5 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		FC9C3FED2B93D5E700DFE0E5 /* EmployeeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FC9C3FCE2B93D48A00DFE0E5 /* Frameworks */ = {
+		FC7E9A0D2BAF586C00498913 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FC7E9A162BAF586C00498913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7E9A1A2BAF586C00498913 /* RepositoryKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9C3FCE2B93D48A00DFE0E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7E9A252BAF586D00498913 /* RepositoryKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC7E9A112BAF586C00498913 /* RepositoryKit */ = {
+			isa = PBXGroup;
+			children = (
+				FC9C3FEB2B93D5E700DFE0E5 /* Repository.swift */,
+				FC7E9A122BAF586C00498913 /* RepositoryKit.h */,
+				FC7E9A132BAF586C00498913 /* RepositoryKit.docc */,
+			);
+			path = RepositoryKit;
+			sourceTree = "<group>";
+		};
+		FC7E9A1F2BAF586C00498913 /* RepositoryKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC7E9A202BAF586C00498913 /* RepositoryKitTests.swift */,
+			);
+			path = RepositoryKitTests;
+			sourceTree = "<group>";
+		};
 		FC9C3FC82B93D48A00DFE0E5 = {
 			isa = PBXGroup;
 			children = (
 				FC9C3FD32B93D48A00DFE0E5 /* EmployeesPluralsightDemo */,
+				FC7E9A112BAF586C00498913 /* RepositoryKit */,
+				FC7E9A1F2BAF586C00498913 /* RepositoryKitTests */,
 				FC9C3FD22B93D48A00DFE0E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				FC9C3FD12B93D48A00DFE0E5 /* EmployeesPluralsightDemo.app */,
+				FC7E9A102BAF586C00498913 /* RepositoryKit.framework */,
+				FC7E9A192BAF586C00498913 /* RepositoryKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,10 +158,19 @@
 		FC9C3FD32B93D48A00DFE0E5 /* EmployeesPluralsightDemo */ = {
 			isa = PBXGroup;
 			children = (
-				FC9C3FD42B93D48A00DFE0E5 /* EmployeesPluralsightDemoApp.swift */,
-				FC9C3FD62B93D48A00DFE0E5 /* ContentView.swift */,
 				FC9C3FD82B93D48C00DFE0E5 /* Assets.xcassets */,
+				FC9C3FE42B93D5E600DFE0E5 /* Colors.swift */,
+				FC9C3FE92B93D5E700DFE0E5 /* ContentView.swift */,
+				FC9C3FE22B93D5E600DFE0E5 /* Employee.swift */,
+				FC9C3FED2B93D5E700DFE0E5 /* EmployeeCell.swift */,
+				FC9C3FE62B93D5E600DFE0E5 /* EmployeeProvider.swift */,
+				FC9C3FE52B93D5E600DFE0E5 /* employees.json */,
+				FC9C3FD42B93D48A00DFE0E5 /* EmployeesPluralsightDemoApp.swift */,
+				FC9C3FE72B93D5E600DFE0E5 /* EmployeesViewController.swift */,
+				FC9C3FE32B93D5E600DFE0E5 /* EmployeesViewControllerView.swift */,
 				FC9C3FDA2B93D48C00DFE0E5 /* Preview Content */,
+				FC9C3FEC2B93D5E700DFE0E5 /* ProfileView.swift */,
+				FC9C3FEA2B93D5E700DFE0E5 /* RemoteImageView.swift */,
 			);
 			path = EmployeesPluralsightDemo;
 			sourceTree = "<group>";
@@ -69,7 +185,55 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		FC7E9A0B2BAF586C00498913 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7E9A222BAF586C00498913 /* RepositoryKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		FC7E9A0F2BAF586C00498913 /* RepositoryKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC7E9A282BAF586D00498913 /* Build configuration list for PBXNativeTarget "RepositoryKit" */;
+			buildPhases = (
+				FC7E9A0B2BAF586C00498913 /* Headers */,
+				FC7E9A0C2BAF586C00498913 /* Sources */,
+				FC7E9A0D2BAF586C00498913 /* Frameworks */,
+				FC7E9A0E2BAF586C00498913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RepositoryKit;
+			productName = RepositoryKit;
+			productReference = FC7E9A102BAF586C00498913 /* RepositoryKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC7E9A182BAF586C00498913 /* RepositoryKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC7E9A2B2BAF586D00498913 /* Build configuration list for PBXNativeTarget "RepositoryKitTests" */;
+			buildPhases = (
+				FC7E9A152BAF586C00498913 /* Sources */,
+				FC7E9A162BAF586C00498913 /* Frameworks */,
+				FC7E9A172BAF586C00498913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC7E9A1C2BAF586C00498913 /* PBXTargetDependency */,
+				FC7E9A1E2BAF586C00498913 /* PBXTargetDependency */,
+			);
+			name = RepositoryKitTests;
+			productName = RepositoryKitTests;
+			productReference = FC7E9A192BAF586C00498913 /* RepositoryKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		FC9C3FD02B93D48A00DFE0E5 /* EmployeesPluralsightDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC9C3FDF2B93D48C00DFE0E5 /* Build configuration list for PBXNativeTarget "EmployeesPluralsightDemo" */;
@@ -77,10 +241,12 @@
 				FC9C3FCD2B93D48A00DFE0E5 /* Sources */,
 				FC9C3FCE2B93D48A00DFE0E5 /* Frameworks */,
 				FC9C3FCF2B93D48A00DFE0E5 /* Resources */,
+				FC7E9A262BAF586D00498913 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FC7E9A242BAF586C00498913 /* PBXTargetDependency */,
 			);
 			name = EmployeesPluralsightDemo;
 			productName = EmployeesPluralsightDemo;
@@ -94,9 +260,16 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
+				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					FC7E9A0F2BAF586C00498913 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					FC7E9A182BAF586C00498913 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FC9C3FD02B93D48A00DFE0E5;
+					};
 					FC9C3FD02B93D48A00DFE0E5 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
@@ -116,16 +289,33 @@
 			projectRoot = "";
 			targets = (
 				FC9C3FD02B93D48A00DFE0E5 /* EmployeesPluralsightDemo */,
+				FC7E9A0F2BAF586C00498913 /* RepositoryKit */,
+				FC7E9A182BAF586C00498913 /* RepositoryKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FC7E9A0E2BAF586C00498913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7E9A172BAF586C00498913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FC9C3FCF2B93D48A00DFE0E5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FC9C3FDC2B93D48C00DFE0E5 /* Preview Assets.xcassets in Resources */,
+				FC9C3FF12B93D5E700DFE0E5 /* employees.json in Resources */,
 				FC9C3FD92B93D48C00DFE0E5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,18 +323,169 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FC7E9A0C2BAF586C00498913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7E9A142BAF586C00498913 /* RepositoryKit.docc in Sources */,
+				FC7E9A2E2BAF589D00498913 /* Repository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7E9A152BAF586C00498913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7E9A212BAF586C00498913 /* RepositoryKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FC9C3FCD2B93D48A00DFE0E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC9C3FD72B93D48A00DFE0E5 /* ContentView.swift in Sources */,
+				FC9C3FF22B93D5E700DFE0E5 /* EmployeeProvider.swift in Sources */,
+				FC3EF4C42BBB030400F79C85 /* Colors.swift in Sources */,
+				FC9C3FEE2B93D5E700DFE0E5 /* Employee.swift in Sources */,
+				FC9C3FF82B93D5E700DFE0E5 /* ProfileView.swift in Sources */,
+				FC9C3FF32B93D5E700DFE0E5 /* EmployeesViewController.swift in Sources */,
+				FC9C3FF92B93D5E700DFE0E5 /* EmployeeCell.swift in Sources */,
 				FC9C3FD52B93D48A00DFE0E5 /* EmployeesPluralsightDemoApp.swift in Sources */,
+				FC9C3FEF2B93D5E700DFE0E5 /* EmployeesViewControllerView.swift in Sources */,
+				FC9C3FF52B93D5E700DFE0E5 /* ContentView.swift in Sources */,
+				FC9C3FF62B93D5E700DFE0E5 /* RemoteImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		FC7E9A1C2BAF586C00498913 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC7E9A0F2BAF586C00498913 /* RepositoryKit */;
+			targetProxy = FC7E9A1B2BAF586C00498913 /* PBXContainerItemProxy */;
+		};
+		FC7E9A1E2BAF586C00498913 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC9C3FD02B93D48A00DFE0E5 /* EmployeesPluralsightDemo */;
+			targetProxy = FC7E9A1D2BAF586C00498913 /* PBXContainerItemProxy */;
+		};
+		FC7E9A242BAF586C00498913 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC7E9A0F2BAF586C00498913 /* RepositoryKit */;
+			targetProxy = FC7E9A232BAF586C00498913 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		FC7E9A292BAF586D00498913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8HU52HCSCD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pluralsight.RepositoryKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC7E9A2A2BAF586D00498913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8HU52HCSCD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pluralsight.RepositoryKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC7E9A2C2BAF586D00498913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pluralsight.RepositoryKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmployeesPluralsightDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EmployeesPluralsightDemo";
+			};
+			name = Debug;
+		};
+		FC7E9A2D2BAF586D00498913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pluralsight.RepositoryKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmployeesPluralsightDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EmployeesPluralsightDemo";
+			};
+			name = Release;
+		};
 		FC9C3FDD2B93D48C00DFE0E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -267,12 +608,14 @@
 		FC9C3FE02B93D48C00DFE0E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EmployeesPluralsightDemo/Preview Content\"";
-				DEVELOPMENT_TEAM = 8HU52HCSCD;
+				DEVELOPMENT_TEAM = 8G56W3L4HH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -280,6 +623,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,6 +631,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pluralsight.EmployeesPluralsightDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -296,12 +641,14 @@
 		FC9C3FE12B93D48C00DFE0E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EmployeesPluralsightDemo/Preview Content\"";
-				DEVELOPMENT_TEAM = 8HU52HCSCD;
+				DEVELOPMENT_TEAM = 8G56W3L4HH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -309,6 +656,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +664,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pluralsight.EmployeesPluralsightDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,6 +674,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FC7E9A282BAF586D00498913 /* Build configuration list for PBXNativeTarget "RepositoryKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7E9A292BAF586D00498913 /* Debug */,
+				FC7E9A2A2BAF586D00498913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC7E9A2B2BAF586D00498913 /* Build configuration list for PBXNativeTarget "RepositoryKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7E9A2C2BAF586D00498913 /* Debug */,
+				FC7E9A2D2BAF586D00498913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FC9C3FCC2B93D48A00DFE0E5 /* Build configuration list for PBXProject "EmployeesPluralsightDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
